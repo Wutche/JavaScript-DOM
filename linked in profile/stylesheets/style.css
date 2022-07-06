@@ -1,0 +1,118 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+}
+
+.card {
+	background-color: #1d2226;
+	color: #ced4da;
+	width: 600px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.299);
+	margin: 50px auto;
+}
+
+.header--left {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.header--left img {
+	margin-left: 20px;
+	width: 80px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	border-radius: 100px;
+}
+
+.header-left--desc {
+	color: #a5a7a8;
+	padding-top: 50px;
+	font-size: 13px;
+}
+
+.username {
+	font-size: 16px;
+	color: white;
+}
+
+.desc {
+	margin-left: 20px;
+	/* width: 200px; */
+}
+
+.card-img img {
+	margin-top: 5px;
+	height: 600px;
+	width: 600px;
+	object-fit: cover;
+}
+
+.bi bi-plus important {
+	stroke: #6f7275;
+}
+
+/* HEDER RIGHT */
+.card-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-right button {
+	font-size: 18px;
+	font-family: calibri;
+	border: none;
+	background-color: #1d2226;
+	color: #65a1dd;
+	cursor: pointer;
+	padding: 5px 10px;
+	margin-right: 10px;
+}
+
+.header-right button:hover {
+	background-color: #2d3f50;
+}
+
+/* reactions */
+.save button {
+	display: none;
+	font-size: 18px;
+	font-family: calibri;
+	letter-spacing: 1px;
+	width: 100%;
+	padding: 10px 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: #65a1dd;
+	background-color: #1d2226;
+	cursor: pointer;
+}
+
+.save button:hover {
+	background-color: #2d3f50;
+}
+
+.chatbox {
+	display: none;
+	width: 250px;
+	height: 50px;
+	background-color: #1d2226;
+	box-shadow: 0px 0px 20px #2d3f50;
+	color: white;
+	font-family: calibri;
+	text-align: center;
+	padding-top: 15px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	border-radius: 10px;
+}

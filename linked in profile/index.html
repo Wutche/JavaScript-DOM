@@ -1,0 +1,71 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="stylesheets/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+		/>
+		<title>linked profile</title>
+	</head>
+	<body>
+		<div class="card">
+			<div class="card-header">
+				<div class="header--left">
+					<img
+						src="https://media-exp1.licdn.com/dms/image/C5603AQGhTPVE66xEUw/profile-displayphoto-shrink_100_100/0/1598711362665?e=1661990400&v=beta&t=44lFsFnGKuf2wnUoTnmdKfW6F1icIvuOO9d9_eYzuFw"
+						alt=""
+					/>
+					<div class="header-left--desc">
+						<p class="username">
+							Mark Miller
+							<span class="number">.3rd <i class="bi bi-plus"> </i> </span>
+						</p>
+						<p>Take responsibilities.Blue credit</p>
+						<p>19h.edited</p>
+					</div>
+				</div>
+				<div class="header-right">
+					<button
+						id="btnflw"
+						onclick="followStatus()"
+						onmouseover="changeText()"
+						onmouseleave="flwText()"
+					>
+						<i class="bi bi-plus"></i> Follow</button
+					>
+				</div>
+			</div>
+			<div class="desc">
+				<span
+					>This is something you never get taught in school. This is something
+					we don't stress to junior developers. This is something that senior
+					developers learn late in their careers: The ability to influence the
+					opinions of others without co</span
+				>
+			</div>
+			<div class="card-img">
+				<img
+					src="https://media-exp1.licdn.com/dms/image/C5622AQEVOvIluBoZpg/feedshare-shrink_800/0/1656515632364?e=1659571200&v=beta&t=UXsnRhfN3tsugIN7rbOkhOSwzRuCq1W7g5pLStM4qWo"
+					alt=""
+				/>
+			</div>
+
+			<div class="reactions">
+				<div class="save">
+					<button id="savebtn" onclick="save()">save</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="chatbox" id="msg">
+			<p>you are now following this user</p>
+		</div>
+		<script src="scripts/index.js"></script>
+	</body>
+</html>
